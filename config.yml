@@ -4,33 +4,32 @@ title: Alban Siffer
 theme: hello-friend-ng
 publishDir: ./docs
 
-
 params:
   defaultTheme: light
-  homeSubtitle: "R&D Engineer - Cyber/AI"
+  homeSubtitle: "CTO @ Situation"
   logo:
     logoText: "cd /home/∇"
-    logoMark: '#'
+    logoMark: "#"
     logoHomeLink: "/"
   customCSS:
     - "/css/nord.css"
     - "/css/custom.css"
   contentTypeName: "posts"
 menu:
-    main:
-        - identifier: about
-          name: about
-          url: /about/
-          weight: 10
-        - identifier: research
-          name: research
-          url: /research/
-          weight: 20
-        - identifier: software
-          name: software
-          url: /software/
-          weight: 30
-        - identifier: posts
-          name: posts
-          url: /posts/
-          weight: 40
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: research
+      name: research
+      url: /research/
+      weight: 20
+    - identifier: software
+      name: software
+      url: /software/
+      weight: 30
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 40
