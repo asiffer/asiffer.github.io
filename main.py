@@ -73,7 +73,13 @@ def define_env(env):
     @env.macro
     def rss_feed(url: str) -> str:
         xml_str = requests.get(url).content.decode("utf-8")
-        channel: RSSChannel = rss_channel_from_xml(xml_str)
+        try:
+            channel: RSSChannel = rss_channel_from_xml(xml_str)
+        except Exception as e:
+            print(f"Error parsing RSS feed: {e}")
+            print(f"RSS feed content: {xml_str}")
+            return ""
+
         out = ""
         for feed in channel.items:
             out += feed.to_html()
