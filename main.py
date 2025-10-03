@@ -72,7 +72,11 @@ def define_env(env):
 
     @env.macro
     def rss_feed(url: str) -> str:
-        xml_str = requests.get(url).content.decode("utf-8")
+        xml_str = requests.get(
+            url,
+            allow_redirects=True,
+            headers={"Accept": "application/xml"},
+        ).content.decode("utf-8")
         try:
             channel: RSSChannel = rss_channel_from_xml(xml_str)
         except Exception as e:
