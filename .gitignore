@@ -1,3 +1,7 @@
-./docs/*
-resources
-Makefile
+.venv
+.archive
+site
+__pycache__
+*.pyc
+.vscode
+.python-version

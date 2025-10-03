@@ -1,0 +1,26 @@
+site_name: "Alban Siffer"
+site_url: "https://asiffer.github.io/"
+site_description: "Don't build apps, build libraries."
+site_author: "Alban Siffer <31479857+asiffer@users.noreply.github.com>"
+repo_url: "https://github.com/asiffer/asiffer.github.io"
+
+theme:
+  name: shadcn
+  icon: ./static/logo.svg
+
+plugins:
+  - search
+  - macros
+
+markdown_extensions:
+  attr_list:
+  admonition:
+  codehilite:
+  fenced_code:
+  footnotes:
+  shadcn.extensions.iconify:
+
+extra_css:
+  - static/style.css
+
+
