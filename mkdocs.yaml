@@ -8,8 +8,13 @@ theme:
   name: shadcn
   icon: ./static/logo.svg
 
+nav:
+  - index.md
+  - research.md
+  - blog.md
+
 plugins:
-  - "shadcn/search"
+  - search
   - macros
 
 markdown_extensions:
