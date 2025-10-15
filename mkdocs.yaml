@@ -9,7 +9,7 @@ theme:
   icon: ./static/logo.svg
 
 plugins:
-  - search
+  - "shadcn/search"
   - macros
 
 markdown_extensions:

@@ -51,3 +51,8 @@ a.rss-link p.rss-description {
   color: var(--muted-foreground);
   font-weight: normal
 }
+
+a {
+  color: var(--primary)
+}
+

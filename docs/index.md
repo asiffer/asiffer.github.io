@@ -6,7 +6,7 @@ sidebar_title: Me
 
 Hi , I am Alban Siffer +twemoji:waving-hand+, kind of *generalist*. I love maths (analysis, probabilities & statistics) and dev (`Python`, `Go`, `C`, `TypeScript`) with cybersecurity in mind. I like reflecting on the whole chain, from theory to real-world deployment.
 
-Currently, I am CTO of [situation.sh](https://www.situation.sh), where we build an IT data collection infrastructure. I am also maintainer of some open-source projects:
+Currently, I am CTO of [situation.sh](https://www.situation.sh), where we build an [IT data collection infrastructure](https://data.situation.sh/howto). I am also maintainer of some open-source projects:
 
 - [mkdocs-shadcn](https://github.com/asiffer/mkdocs-shadcn) - A [MkDocs](https://www.mkdocs.org/) theme based on [shadcn/ui](https://ui.shadcn.com/). Yes these pages are made with it!
 - [libspot](https://github.com/asiffer/libspot) - A C library to flag extreme events (outliers) in streaming data.
